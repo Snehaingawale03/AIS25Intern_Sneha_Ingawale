@@ -217,3 +217,28 @@ Visualization
 Condition Selection
 1. And: Select rows where multiple conditions are true.
 2. Or: Select rows where at least one condition is true.
+
+📖 Project Overview:
+This project is a Retrieval-Augmented Generation (RAG) chatbot that allows users to upload PDF documents and receive AI-generated responses based on the document’s content. It leverages FAISS for efficient vector search and Hugging Face models for natural language understanding and response generation.
+
+🚀 Key Features:
+PDF-Based Q&A: Users can upload PDFs, and the chatbot retrieves relevant information.
+
+AI-Powered Responses: Uses Flan-T5/GPT models for generating responses.
+
+Efficient Retrieval: Implements FAISS (Facebook AI Similarity Search) for fast and accurate document retrieval.
+
+Interactive UI: Built using Streamlit for a seamless user experience.
+
+🛠️ Technologies Used:
+Python
+
+LangChain (for RAG pipeline)
+
+Hugging Face Models (Flan-T5, GPT, etc.)
+
+FAISS (Vector Database for document retrieval)
+
+Streamlit (User Interface)
+
+PyMuPDF, pdfminer.six (PDF Processing)
